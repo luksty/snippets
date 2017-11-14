@@ -20,3 +20,15 @@ vim.command('colorscheme '+dir[index])
 [print(line) for line in c]
 print(dir[index])
 # xxx
+
+
+# group by groupby modulo number of line with dict
+d = {}
+for idx, line in enumerate(c):
+    key, value = idx % 6, line
+    l = d.get(key, [])
+    l.append(value)
+    d[key] = l
+
+print(d)
+# xxx
