@@ -1,0 +1,39 @@
+#change CRLF to LF  (\r\n to \n)
+sed -i '1s/\r//' script.sh
+
+#octal dump --character
+oc -c file
+
+echo "dir1 dir2" > dirs
+for a in `cat dirs`; do mkdir $a; done
+
+staging dev IM pass
+3ATp47PSr
+
+
+find input/ -ipath '*/work/*' -execdir mv {} ../ \;
+
+-same as sort u in vim
+grep -si MONSYSDOCSTATUS_MT * | uniq
+
+
+Ymx6b8RdZ&e
+
+sudo -u jboss-as service syncronjboss status
+sudo -u jboss-as service syncronwildfly status
+sudo -u jboss-as service syncronjboss restart
+
+
+nT3AZ!Cze  - rim test gui superadmin
+
+g65zfmC6WYd
+function prompt{">> "}
+
+
+322 000
+
+
+Ymx6b8RdZ&e
+
+
+--------------------------
