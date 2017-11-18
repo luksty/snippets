@@ -1,5 +1,6 @@
 #change CRLF to LF  (\r\n to \n)
-sed -i '1s/\r//' script.sh
+sed -i '1s/\r//' infile	
+tr -d '\r' < infile > out
 
 #octal dump --character
 oc -c file
@@ -7,8 +8,27 @@ oc -c file
 echo "dir1 dir2" > dirs
 for a in `cat dirs`; do mkdir $a; done
 
-staging dev IM pass
-3ATp47PSr
+#accepts input, terminate with ctrl-d
+cat > in
+
+echo "git.io/vFSJZ" > in
+echo "git.io/lukstyR" >> in
+
+#pipe 2nd line from in to curl
+cat in | sed -n '2p' | xargs curl -Lso out
+for i in $(cat in); do curl -Ls $i; done	
+
+#print nth line
+cat in | sed -n '2p'
+
+
+for file in $(ls | grep test); do cp "$file" "${file}_new"; done
+
+for i in a b; do echo $i; done
+for i in a b c; do for j in $(seq 3); do echo $i$j; done; done
+for i in a b c; do for j in $(seq 3); do echo test$j>>test$i; done; done
+for i in $(seq 5);do echo test$i > test$i;done
+
 
 
 find input/ -ipath '*/work/*' -execdir mv {} ../ \;
@@ -17,23 +37,16 @@ find input/ -ipath '*/work/*' -execdir mv {} ../ \;
 grep -si MONSYSDOCSTATUS_MT * | uniq
 
 
-Ymx6b8RdZ&e
+
 
 sudo -u jboss-as service syncronjboss status
 sudo -u jboss-as service syncronwildfly status
 sudo -u jboss-as service syncronjboss restart
 
+Ymx6b8RdZ&e
 
 nT3AZ!Cze  - rim test gui superadmin
 
-g65zfmC6WYd
+
 function prompt{">> "}
-
-
-322 000
-
-
-Ymx6b8RdZ&e
-
-
---------------------------
+im dev prod gui 3ATp47PSr
